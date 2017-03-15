@@ -3,3 +3,4 @@
 ## Problems solved: `0`
 
 ### Week 1
+1. [A + B](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/a%2Bb.cpp) - **Accepted**
