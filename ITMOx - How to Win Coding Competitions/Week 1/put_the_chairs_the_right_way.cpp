@@ -8,7 +8,6 @@
   using std::cout;
 #endif
 
-#include <cmath>
 #include <iomanip>
 
 int main() {
