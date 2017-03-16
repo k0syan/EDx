@@ -16,6 +16,7 @@ int main() {
   
   int *p = new int[n];
   int *t = new int[n];
+  int *differrence = new int[n];
   
   int max = 0;
   
@@ -35,16 +36,39 @@ int main() {
       max += t[i];
       theory = true;
     }
+    
+    differrence[i] = p[i] - t[i];
   }
   
   if (practice && theory) {
     cout << max << '\n';
+  } else if(practice) {
+    int m = 0;
+  
+    for (int i = 1; i < n; ++i) {
+      if (differrence[i] < differrence[m]) {
+        m = i;
+      }
+    }
+    
+    max = max - p[m] + t[m];
+    cout << max << '\n';
   } else {
-    cout << "Vay qu ara" << '\n';
+    int m = 0;
+  
+    for (int i = 1; i < n; ++i) {
+      if (differrence[i] > differrence[m]) {
+        m = i;
+      }
+    }
+    
+    max = max + p[m] - t[m];
+    cout << max << '\n';
   }
   
   delete [] p;
   delete [] t;
+  delete [] differrence;
   
   return 0;
 }
