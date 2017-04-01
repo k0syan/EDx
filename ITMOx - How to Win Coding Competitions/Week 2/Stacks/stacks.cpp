@@ -8,12 +8,27 @@
   using std::cout;
 #endif
 
-#include <string>
+#include <vector>
 #include <stack>
 
-typedef long long ll;
-
 int main() {
+  int n;
+  cin >> n;
+  std::vector<int> cups;
+  
+  for (int i = 0; i < n; ++i) {
+    int tmp;
+    cin >> tmp;
+    cups.push_back(tmp);
+  }
+  
+  std::stack<int> first;
+  int min_depth = 0;
+  for (int i = 0; i < n; ++i) {
+    if(cups[i]) {
+      
+    }
+  }
   
   return 0;
 }
