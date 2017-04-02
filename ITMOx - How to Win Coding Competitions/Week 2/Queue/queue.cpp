@@ -14,6 +14,31 @@
 typedef long long ll;
 
 int main() {
+  int n;
+  cin >> n;
   
+  std::string answer = "";
+  
+  std::queue<ll> q;
+  for (int i = 0; i < n; ++i) {
+    char operation;
+    cin >> operation;
+    
+    switch (operation) {
+      case '+': {
+        ll x;
+        cin >> x;
+        q.push(x);
+        break;
+      }
+      case '-': {
+        answer += std::to_string(q.front()) + "\n";
+        q.pop();
+        break;
+      }
+    }
+  }
+  
+  cout << answer;  
   return 0;
 }
