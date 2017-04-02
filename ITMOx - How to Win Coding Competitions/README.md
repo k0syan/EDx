@@ -13,3 +13,4 @@
 8. [Win the Competition](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/win_the_competition.cpp) - **Accepted**
 
 ### Week 2
+1. [Stack](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Stack) - **Accepted**
