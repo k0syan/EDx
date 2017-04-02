@@ -15,5 +15,5 @@
 ### Week 2
 1. [Stack](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Stack) - **Accepted**
 2. [Queue](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Queue) - **Accepted**
-3. [Queue with Minimum]
+3. [Queue with Minimum]()
 4. [Bracket Sequence](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Bracket%20Sequence) - **Accepted**
