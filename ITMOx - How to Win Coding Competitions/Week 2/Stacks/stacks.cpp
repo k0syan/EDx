@@ -8,27 +8,38 @@
   using std::cout;
 #endif
 
+#include <functional>
 #include <vector>
-#include <stack>
+#include <queue>
 
 int main() {
   int n;
   cin >> n;
-  std::vector<int> cups;
+  
+  // min heap init
+  std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap;
+  int max = 1;
   
   for (int i = 0; i < n; ++i) {
-    int tmp;
-    cin >> tmp;
-    cups.push_back(tmp);
-  }
-  
-  std::stack<int> first;
-  int min_depth = 0;
-  for (int i = 0; i < n; ++i) {
-    if(cups[i]) {
+    int a;
+    cin >> a;
+    
+    if (i == 0 || a != 0) {
+      // add another stack
+      min_heap.push(1);
+    } else {
+      // find the min stack
+      int min = min_heap.top();
+      min_heap.pop();
+      min_heap.push(++min);
       
+      // number of cups in the biggest stack
+      if (min > max) {
+        max = min;
+      }
     }
   }
   
+  cout << max << "\n";
   return 0;
 }
