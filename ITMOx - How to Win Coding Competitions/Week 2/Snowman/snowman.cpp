@@ -11,22 +11,24 @@
 #include <stack>
 #include <vector>
 
-typedef long long ll;
+typedef unsigned long long ull;
 
 int main() {
   int n;
   cin >> n;
-  std::vector<std::pair<std::stack<int>, int>> actions;
+  std::vector<std::pair<std::stack<int>, ull>> actions;
   std::stack<int> s;
   s.push(0);
-  std::pair<std::stack<int>, int> p(s, 0);
+  std::pair<std::stack<int>, ull> p(s, 0);
   actions.push_back(p);
   
+  ull total = 0;
   for (int i = 0; i < n; ++i) {
-    int index, action;
+    int index;
+    ull action;
     cin >> index >> action;
     std::stack<int> tmp = actions[index].first;
-    int weight = actions[index].second;
+    ull weight = actions[index].second;
     if (action == 0) {
       weight -= tmp.top();
       tmp.pop();
@@ -34,14 +36,11 @@ int main() {
       tmp.push(action);
       weight += action;
     }
-    std::pair<std::stack<int>, int> p(tmp, weight);
+    total += weight;
+    std::pair<std::stack<int>, ull> p(tmp, weight);
     actions.push_back(p);
   }
   
-  int total = 0;
-  for (int i = 0; i <= n; ++i) {
-    total += actions[i].second;
-  }
   cout << total << '\n';
   
   return 0;
