@@ -16,8 +16,10 @@ typedef unsigned long long ull;
 int main() {
   int n;
   cin >> n;
+  
   std::vector<std::pair<std::stack<int>, ull>> actions;
   std::stack<int> s;
+  
   s.push(0);
   std::pair<std::stack<int>, ull> p(s, 0);
   actions.push_back(p);
@@ -27,6 +29,7 @@ int main() {
     int index;
     ull action;
     cin >> index >> action;
+    
     std::stack<int> tmp = actions[index].first;
     ull weight = actions[index].second;
     if (action == 0) {
@@ -42,6 +45,5 @@ int main() {
   }
   
   cout << total << '\n';
-  
   return 0;
 }
