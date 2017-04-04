@@ -5,7 +5,7 @@
 ### Week 1
 1. [A + B](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/A%2BB) - **Accepted**
 2. [A + B^2](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/A%2BB2) - **Accepted**
-3. [Prepare Yourself to Competiotions](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/prepare_yourself_to_competitions.cpp) - **Accepted**
+3. [Prepare Yourself to Competiotions](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/Prepare%20Yourself%20To%20Competitions) - **Accepted**
 4. [Create a Team](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/Create%20A%20Team) - **Accepted**
 5. [Put the Chairs the Right Way!](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/put_the_chairs_the_right_way.cpp) - **Accepted**
 6. [Write a Code Template](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/write_a_code_template.cpp) - **Accepted**
