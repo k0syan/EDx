@@ -9,7 +9,7 @@
 4. [Create a Team](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/Create%20A%20Team) - **Accepted**
 5. [Put the Chairs the Right Way!](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/put_the_chairs_the_right_way.cpp) - **Accepted**
 6. [Write a Code Template](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/write_a_code_template.cpp) - **Accepted**
-7. [Generate Tests](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/generate_tests.cpp) - **Accepted**
+7. [Generate Tests](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/Generate%20Tests) - **Accepted**
 8. [Win the Competition](https://github.com/k0syan/edX/blob/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%201/win_the_competition.cpp) - **Accepted**
 
 ### Week 2
