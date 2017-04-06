@@ -21,3 +21,5 @@
 6. [Snowman]()
 7. [Stacks](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Stacks) - **Accepted**
 8. [Kenobi's Lightsabers]()
+
+### Week 3
