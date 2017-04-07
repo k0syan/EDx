@@ -23,5 +23,5 @@
 8. [Kenobi's Lightsabers]()
 
 ### Week 3
-1. [Sorting]()
+1. [Sorting](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Sorting)
 2. [Inversions](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Inversions) - **Time Limit Exceeded**
