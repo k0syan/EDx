@@ -9,11 +9,10 @@
 #endif
 
 #include <vector>
-using namespace std;
 unsigned long long inversions_count = 0;
 
-vector<int> merge(vector<int> first_array, vector<int> second_array) {
-  vector<int> merged;
+std::vector<int> merge(std::vector<int> first_array, std::vector<int> second_array) {
+  std::vector<int> merged;
 
   int j = 0;
   int i = 0;
@@ -41,14 +40,14 @@ vector<int> merge(vector<int> first_array, vector<int> second_array) {
   return merged;
 }
 
-vector<int> merge_sort(vector<int> numbers, int start, int end) {
+std::vector<int> merge_sort(std::vector<int> numbers, int start, int end) {
   if (end == start) {
-    return vector<int>{numbers[start]};
+    return std::vector<int>{numbers[start]};
   }
 
   if (end - start < 2) {
-    vector<int> first_array = {numbers[start]};
-    vector<int> second_array = {numbers[end]};
+    std::vector<int> first_array = {numbers[start]};
+    std::vector<int> second_array = {numbers[end]};
     return merge(first_array, second_array);
   }
 
@@ -59,14 +58,14 @@ vector<int> merge_sort(vector<int> numbers, int start, int end) {
 int main() {
   int n;
   cin >> n;
-  vector<int> numbers;
+  std::vector<int> numbers;
   for (int i = 0; i < n; ++i) {
     int tmp;
     cin >> tmp;
     numbers.push_back(tmp);
   }
 
-  vector<int> merged = merge_sort(numbers, 0, (int) numbers.size() - 1);
+  std::vector<int> merged = merge_sort(numbers, 0, (int) numbers.size() - 1);
 
   cout << inversions_count << '\n';
 
