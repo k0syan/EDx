@@ -26,3 +26,4 @@
 1. [Sorting](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Sorting)
 2. [Inversions](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Inversions) - **Time Limit Exceeded**
 3. Anti-Quicksort
+4. [K-th Ordered Statistic]()
