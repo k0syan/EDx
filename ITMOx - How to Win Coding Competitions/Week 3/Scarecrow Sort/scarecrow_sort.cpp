@@ -45,7 +45,7 @@ int main() {
     
     int l = 0;
     for (int j = i; j < n; j += k) {
-      m[j] = s[l];
+      matr[j] = s[l];
       ++l;
     }
   }
