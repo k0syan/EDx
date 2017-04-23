@@ -15,19 +15,19 @@
 ### Week 2
 1. [Stack](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Stack) - **Accepted**
 2. [Queue](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Queue) - **Accepted**
-3. [Queue with Minimum]()
+3. Queue with Minimum
 4. [Bracket Sequence](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Bracket%20Sequence) - **Accepted**
 5. [Postfix Notation](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Postfix%20Notation) - **Accepted**
-6. [Snowman]()
+6. Snowman
 7. [Stacks](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%202/Stacks) - **Accepted**
-8. [Kenobi's Lightsabers]()
+8. Kenobi's Lightsabers
 
 ### Week 3
 1. [Sorting](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Sorting)
 2. [Inversions](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Inversions) - **Time Limit Exceeded**
 3. Anti-Quicksort
-4. [K-th Ordered Statistic]()
-5. [Drying]()
-6. [Fence Painting]()
-7. [K Best]()
+4. K-th Ordered Statistic
+5. Drying
+6. Fence Painting
+7. K Best
 8. [Scarecrow Sort](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Scarecrow%20Sort) - **Accepted**
