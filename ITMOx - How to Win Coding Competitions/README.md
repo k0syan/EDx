@@ -31,3 +31,5 @@
 6. Fence Painting
 7. K Best
 8. [Scarecrow Sort](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Scarecrow%20Sort) - **Accepted**
+
+### Exam
