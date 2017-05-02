@@ -33,5 +33,5 @@
 8. [Scarecrow Sort](https://github.com/k0syan/edX/tree/master/ITMOx%20-%20How%20to%20Win%20Coding%20Competitions/Week%203/Scarecrow%20Sort) - **Accepted**
 
 ### Exam
-
+3. [3]() - **Wrong Answer**
 5. [Expensive Tree]() - **Accepted**
