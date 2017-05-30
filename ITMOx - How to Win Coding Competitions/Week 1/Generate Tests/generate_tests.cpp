@@ -9,7 +9,6 @@
 #endif
 
 #include <vector>
-
 typedef unsigned long long ull;
 
 int main() {
@@ -26,7 +25,6 @@ int main() {
     1081080, 1441440, 2162160, 2882880, 3603600, 
     4324320, 6486480, 7207200, 8648640
   };
-  
   
   ull max_index = 0;
   for (ull i = 0; i < highly_composite_numbers.size(); ++i) {
