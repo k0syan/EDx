@@ -14,14 +14,12 @@
 int main() {
   int n, i;
   cin >> n;
-  
   std::vector<int> times(n);
   for (i = 0; i < n; ++i) {
     cin >> times[i];
   }
   
   std::sort(begin(times), end(times));
-  
   int time = 18000;
   int max = 0;
   
@@ -33,6 +31,5 @@ int main() {
   }
   
   cout << max << "\n";
-  
   return 0;
 }
