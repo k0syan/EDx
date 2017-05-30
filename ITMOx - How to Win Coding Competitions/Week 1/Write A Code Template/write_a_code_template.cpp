@@ -15,7 +15,6 @@
 int main() {
   int w, h;
   cin >> w >> h;
-  
   std::unordered_map<char, std::pair<int, int>> keyboard;
   
   for (int i = 0; i < h; ++i) {
@@ -27,12 +26,10 @@ int main() {
   }
   
   std::pair<std::string, std::string> templates[3];
-  
   for (int i = 0; i < 3; ++i) {
     std::string language;
     cin >> language;
     templates[i].first = language;
-    
     std::string code = "";
     while (true) {
       std::string line;
@@ -56,7 +53,6 @@ int main() {
   
   for (auto t : templates) {
     int total = 0;
-    
     for (int i = 0; i < t.second.length() - 1; ++i) {
       int xa = keyboard[t.second[i]].first;
       int xb = keyboard[t.second[i + 1]].first;
@@ -73,6 +69,5 @@ int main() {
   
   cout << optimal << "\n";
   cout << min << "\n";
-  
   return 0;
 }
