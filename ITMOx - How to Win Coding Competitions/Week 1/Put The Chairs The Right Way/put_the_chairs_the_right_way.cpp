@@ -18,6 +18,5 @@ int main() {
   p = p / 3.0;
   
   cout << std::setprecision(8) << p << '\n';
-  
   return 0;
 }
