@@ -10,7 +10,6 @@
 
 #include <string>
 #include <stack>
-
 typedef long long ll;
 
 int main() {
