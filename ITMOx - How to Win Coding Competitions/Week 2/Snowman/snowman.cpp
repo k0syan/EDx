@@ -16,7 +16,6 @@ typedef unsigned long long ull;
 int main() {
   int n;
   cin >> n;
-  
   std::vector<std::pair<std::stack<int>, ull>> actions;
   std::stack<int> s;
   
@@ -25,6 +24,7 @@ int main() {
   actions.push_back(p);
   
   ull total = 0;
+  
   for (int i = 0; i < n; ++i) {
     int index;
     ull action;
