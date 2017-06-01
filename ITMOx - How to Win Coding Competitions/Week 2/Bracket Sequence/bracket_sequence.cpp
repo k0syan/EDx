@@ -14,13 +14,11 @@
 int main() {
   int n;
   cin >> n;
-  
   std::string answer = "";
-  
+
   for (int i = 0; i < n; ++i) {
     std::string line;
     cin >> line;
-    
     bool valid = true;
     std::stack<char> s;
 
