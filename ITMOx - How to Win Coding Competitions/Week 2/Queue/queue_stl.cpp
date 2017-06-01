@@ -10,20 +10,17 @@
 
 #include <string>
 #include <queue>
-
 typedef long long ll;
 
 int main() {
   int n;
   cin >> n;
-  
   std::string answer = "";
-  
   std::queue<ll> q;
+  
   for (int i = 0; i < n; ++i) {
     char operation;
     cin >> operation;
-    
     switch (operation) {
       case '+': {
         ll x;
