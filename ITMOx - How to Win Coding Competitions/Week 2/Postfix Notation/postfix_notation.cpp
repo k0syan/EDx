@@ -13,12 +13,11 @@
 int main() {
   int n;
   cin >> n;
-  
   std::stack<int> s;
+  
   for (int i = 0; i < n; ++i) {
     char x;
     cin >> x;
-    
     switch (x) {
       case '+': {
         int a = s.top();
