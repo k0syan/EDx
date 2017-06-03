@@ -17,8 +17,8 @@ typedef long long ll;
 int main() {
   int n, k;
   cin >> n >> k;
-  
   std::vector<ll> matr(n);
+  
   for (int i = 0; i < n; ++i) {
     cin >> matr[i];
   }
@@ -37,13 +37,15 @@ int main() {
     }
     
     std::vector<ll> s;
+    
     for (int j = i; j < n; j += k) {
       c[j] = true;
       s.push_back(matr[j]);
     }
-    std::sort(begin(s), end(s));
     
+    std::sort(begin(s), end(s));
     int l = 0;
+    
     for (int j = i; j < n; j += k) {
       matr[j] = s[l];
       ++l;
@@ -51,6 +53,7 @@ int main() {
   }
   
   bool s = true;
+  
   for (int i = 0; i < n - 1; ++i) {
     if (matr[i] > matr[i + 1]) {
       s = false;
