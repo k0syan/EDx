@@ -13,9 +13,9 @@ unsigned long long inversions_count = 0;
 
 std::vector<int> merge(std::vector<int> first_array, std::vector<int> second_array) {
   std::vector<int> merged;
-
   int j = 0;
   int i = 0;
+  
   for (int k = 0; k < (int) (first_array.size() + second_array.size()); k++) {
     if (i < (int) first_array.size()) {
       if (j < (int) second_array.size()) {
@@ -36,7 +36,6 @@ std::vector<int> merge(std::vector<int> first_array, std::vector<int> second_arr
       j++;
     }
   }
-
   return merged;
 }
 
@@ -59,6 +58,7 @@ int main() {
   int n;
   cin >> n;
   std::vector<int> numbers;
+  
   for (int i = 0; i < n; ++i) {
     int tmp;
     cin >> tmp;
@@ -66,8 +66,7 @@ int main() {
   }
 
   std::vector<int> merged = merge_sort(numbers, 0, (int) numbers.size() - 1);
-
+  
   cout << inversions_count << '\n';
-
   return 0;
 }
