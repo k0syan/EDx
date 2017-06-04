@@ -11,7 +11,6 @@
 #include <vector>
 #include <iterator>
 #include <algorithm>
-
 typedef unsigned long long ull;
 
 struct maximum {
@@ -22,7 +21,6 @@ struct maximum {
     this->number = n;
     this->index = i;
   }
-
   friend bool operator<(const maximum& a, const maximum& b) {
       return a.number < b.number;
   }
@@ -31,6 +29,7 @@ struct maximum {
 int main() {
     int n;
     ull m;
+  
     cin >> n >> m;
     std::vector<ull> numbers;
     
@@ -42,6 +41,7 @@ int main() {
     
     ull max = 0;
     ull max_index = 0;
+  
     for (int i = 0; i < n; ++i) {
       if (max < numbers[i]) {
         max = numbers[i];
